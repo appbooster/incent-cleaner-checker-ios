@@ -1,0 +1,6 @@
+framework module IncentCleanerChecker {
+  umbrella header "IncentCleanerChecker.h"
+
+  export *
+  module * { export * }
+}
