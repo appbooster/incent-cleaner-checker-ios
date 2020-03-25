@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		434B3A17232299DB0004CA99 /* IncentCleanerChecker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 434B3A16232299DB0004CA99 /* IncentCleanerChecker.framework */; };
-		434B3A18232299DB0004CA99 /* IncentCleanerChecker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 434B3A16232299DB0004CA99 /* IncentCleanerChecker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		439B9E5A242B615400229ED7 /* IncentCleanerChecker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 439B9E59242B615400229ED7 /* IncentCleanerChecker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		83C4AB1A2302D02F003FE7EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4AB192302D02F003FE7EF /* AppDelegate.swift */; };
 		83C4AB1C2302D02F003FE7EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C4AB1B2302D02F003FE7EF /* ViewController.swift */; };
 		83C4AB1F2302D02F003FE7EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C4AB1D2302D02F003FE7EF /* Main.storyboard */; };
@@ -23,7 +22,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				434B3A18232299DB0004CA99 /* IncentCleanerChecker.framework in Embed Frameworks */,
+				439B9E5A242B615400229ED7 /* IncentCleanerChecker.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,7 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		434B3A16232299DB0004CA99 /* IncentCleanerChecker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IncentCleanerChecker.framework; sourceTree = "<group>"; };
+		439B9E59242B615400229ED7 /* IncentCleanerChecker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IncentCleanerChecker.framework; sourceTree = "<group>"; };
 		83C4AB162302D02F003FE7EF /* IncentCleanerCheckerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IncentCleanerCheckerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C4AB192302D02F003FE7EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83C4AB1B2302D02F003FE7EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +45,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				434B3A17232299DB0004CA99 /* IncentCleanerChecker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +54,7 @@
 		83C4AB0D2302D02F003FE7EF = {
 			isa = PBXGroup;
 			children = (
-				434B3A16232299DB0004CA99 /* IncentCleanerChecker.framework */,
+				439B9E59242B615400229ED7 /* IncentCleanerChecker.framework */,
 				83C4AB182302D02F003FE7EF /* IncentCleanerCheckerExample */,
 				83C4AB172302D02F003FE7EF /* Products */,
 			);
